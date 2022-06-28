@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Resume</title>
+
+	<!-- Metadata -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="adcimon"/>
+    <meta name="description" content="resume"/>
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/x-icon" href="./assets/img/favicons/favicon.png">
+
+    <!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="./assets/styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="./assets/styles/dark.css"/>
+
+	<!-- Scripts -->
+	<script src="./assets/scripts/alpine.js"></script>
+	
+</head>
+
+<body x-data="{ nav: 0 }">
+
+    <main class="main">
+
+	    <!-- Header Image -->
+		<div class="header-image">
+		    <div class="header-banner" style="background-image: url(./assets/img/banner.png);"></div>
+		</div>
+		
+	    <div class="container gutter-top">
+
+		    <!-- Header -->
+		    <header class="header box">
+			    <div class="header__left">
+				    <div class="header__photo">
+					    <img class="header__photo-img" src="./assets/img/avatar.png">
+					</div>
+					<div class="header__base-info">
+					    <h4 class="title titl--h4">Adrián Ciborro Montes</h4>
+						<div class="status">Programmer</div>
+						<ul class="header__social">
+						    <li><a href="https://github.com/adcimon"><i class="font-icon icon-github1"></i></a></li>
+						    <li><a href="https://www.twitter.com/adcimon"><i class="font-icon icon-twitter1"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCOLRZVlId0Tn9gf9kG5Zq2g"><i class="font-icon icon-youtube1"></i></a></li>
+							<li><a href="mailto: contact.adcimon@gmail.com"><i class="font-icon icon-mail"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__right">
+					<ul class="header__contact">
+					    <li><span class="overhead">Birthday</span>26 March, 1990</li>
+						<li><span class="overhead">Location</span>Valencia, Spain</li>
+					</ul>
+				</div>
+			</header>
+			
+		    <div class="row sticky-parent">
+
+			    <!-- Nav Sidebar -->
+                <aside class="col-12 col-md-12 col-lg-2">
+				    <div class="sidebar box sticky-column">
+	                    <ul class="nav">
+                            <li x-on:click="nav=0" class="nav__item"><a x-bind:class="{ 'active': nav==0 }" href="#"><i class="icon-file"></i>Resume</a></li>
+                            <li x-on:click="nav=1" class="nav__item"><a x-bind:class="{ 'active': nav==1 }" href="#"><i class="icon-image"></i>Portfolio</a></li>
+                        </ul>
+					</div>
+		        </aside>
+		        
+				<!-- Content -->
+		        <div class="col-12 col-md-12 col-lg-10">
+
+					<!-- Resume -->
+				    <div x-show="nav===0" class="box box-content">
+
+					    <!-- About -->
+						<div class="pb-0 pb-sm-2">
+							<p>
+								I'm a programmer specialized in computer graphics, video streaming and web development from Valencia, Spain. I love to work with creative technologies where math and art blend.
+								Check my <a href="https://github.com/adcimon">GitHub</a> to see my open source projects!
+							</p>
+					    </div>
+						
+						<!-- What -->
+						<div class="mt-1">
+							<div class="row">
+							    <div class="col-12 col-lg-6">
+							        <div class="case-item">
+									    <img class="case-item__icon" src="./assets/img/icons/icon_graphics.svg">
+										<div>
+									        <h3 class="title title--h4">Computer Graphics</h3>
+										    <p class="case-item__caption">I design and develop 3D worlds, simulations and videogames.</p>
+										</div>	
+									</div>
+								</div>
+								<div class="col-12 col-lg-6">
+								    <div class="case-item">
+								        <img class="case-item__icon" src="./assets/img/icons/icon_streaming.svg">
+										<div>
+								            <h3 class="title title--h4">Video Streaming</h3>
+									        <p class="case-item__caption">Real-time streaming has proven to be one of the most valuable technology fields worldwide. I work with technologies that combine streaming and XR.</p>
+										</div>
+								   </div>
+								</div>
+								<div class="col-12 col-lg-6">
+							        <div class="case-item">
+									    <img class="case-item__icon" src="./assets/img/icons/icon_web.svg">
+										<div>
+									        <h3 class="title title--h4">Web Development</h3>
+										    <p class="case-item__caption">I build and maintain applications that support complex 3D and streaming features.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-6">
+								    <div class="case-item">
+									    <img class="case-item__icon" src="./assets/img/icons/icon_digital_art.svg">
+										<div>
+									        <h3 class="title title--h4">Digital Art</h3>
+										    <p class="case-item__caption">Learning Photoshop, Blender and Substance Painter.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Education -->
+						<div class="row">
+							<div class="col-12">
+								<h2 class="title title--h3"><img class="title-icon" src="./assets/img/icons/icon_education.svg" alt=""/> Education</h2>
+								<div class="timeline">                                       
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Master's Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging</h5>
+										<div><a href="https://www.upv.es/titulaciones/MUIARFID/">Polytechnic University of Valencia</a></div>
+										<div class="timeline__period">2016 — 2017</div>
+										<div class="timeline__description">
+											<ul>
+												<li>
+													Final project: <a href="https://riunet.upv.es/bitstream/handle/10251/130036/Ciborro%20-%20Renderizado%20de%20funciones%20de%20distancia%20mediante%20raymarching%20en%20Unity.pdf?sequence=1">Rendering of distance functions using raymarching in Unity</a> (<a href="https://github.com/adcimon/com.adcimon.raymarching"><i class="font-icon icon-github1"></i></a>)
+												</li>
+												<li>
+													Computer graphics, game engines and virtual reality.
+												</li>
+												<li>
+													Artificial intelligence, machine learning and deep learning.
+												</li>
+											</ul>
+										</div>
+									</article>
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Computer Science and Engineering</h5>
+										<div><a href="https://www.upv.es/en">Polytechnic University of Valencia</a></div>
+										<div class="timeline__period">2008 — 2014</div>
+										<div class="timeline__description">
+											<ul>
+												<li>
+													<strong>Final Project:</strong> Development of an augmented reality multiplayer videogame with Unity and Vuforia for tablets.
+												</li>
+												<li>
+													<strong>Specialization:</strong> Computer graphics, computer vision and robotics.
+												</li>
+												<li>
+													<div><strong><a href="https://www.sdu.dk/en">University of Southern Denmark</a> (Erasmus 2014)</strong></div>
+													<div>Game design and programming, .NET and Android.</div>
+												</li>
+												<li>
+													<div><strong><a href="https://www.univ-reims.eu/">University of Reims Champagne-Ardenne</a> (Erasmus Intensive Program HuMaIn 2013)</strong></div>
+													<div>The goal of that year was to design and simulate a robotic system for the handling and storage of champagne bottles in the cellars.</div>
+												</li>
+											</ul>
+										</div>
+									</article>
+								</div>	
+							</div>
+						</div>
+
+						<!-- Experience -->
+						<div class="row">
+							<div class="col-12">
+								<h2 class="title title--h3"><img class="title-icon" src="./assets/img/icons/icon_experience.svg" alt=""> Experience</h2>
+								<div class="timeline">
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Brainstorm Multimedia <a href="https://www.brainstorm3d.com/"><i class="font-icon icon-link"></i></a></h5>
+										<div class="timeline__period">2019 — Present</div>
+										<div class="timeline__period">Graphics and Streaming Developer</div>
+										<div class="timeline__description">
+											<ul>
+												<li>
+													Development of a WebRTC-NDI real-time streaming system to insert remote streams into the virtual set and XR engine <a href="https://www.brainstorm3d.com/products/infinityset/">InfinitySet</a>.
+												</li>
+												<li>
+													Research & Development: <a href="http://www.admire3d.eu/">Advanced Mixed Realities</a>, <a href="https://newsinitiative.withgoogle.com/dnifund/dni-projects/TelePorter/">Google Digital News Initiative</a>.
+												</li>
+											</ul>
+										</div>
+									</article>
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Baintex Technologies <a href="https://www.baintex.com/uk/"><i class="font-icon icon-link"></i></a></h5>
+										<div class="timeline__period">2016 — 2018</div>
+										<div class="timeline__period">Software Developer</div>
+										<div class="timeline__description">
+											<ul>
+												<li>
+													Development of a <a href="https://www.youtube.com/watch?v=UE9zPuvrNMo">virtual reality application</a> with Unity and Oculus to teach the customers how to use the home automation system.
+												</li>
+												<li>
+													Development of <a href="https://www.baintex.com/uk/everou-app">Everou</a>, the Android/iOS application to control the home automation system.
+												</li>
+											</ul>
+										</div>
+									</article>
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Sopra Steria <a href="https://www.soprasteria.com/"><i class="font-icon icon-link"></i></a></h5>
+										<div class="timeline__period">2015 — 2016</div>
+										<div class="timeline__period">Back-end Developer</div>
+										<div class="timeline__description">
+											<ul>
+												<li>
+													Development of Node.js applications.
+												</li>
+												<li>
+													Maintenance of Java EE applications.
+												</li>
+											</ul>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+
+						<!-- Toolbox -->
+						<div class="row">
+							<div class="col-12">
+								<h2 class="title title--h3"><img class="title-icon" src="./assets/img/icons/icon_toolbox.svg" alt=""> Toolbox</h2>
+								<p>I feel confortable working with the following technologies:</p>
+								<div class="box box__border">
+									<!-- Languages -->
+									<div>
+										<h4 class="title title--h4">Languages</h4>
+										<div>
+											<img class="toolbox-badge" src="./assets/img/badges/c.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/cpp.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/csharp.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/python.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/go.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/javascript.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/typescript.svg">
+										</div>
+									</div>
+									<br>
+
+									<!-- Graphics -->
+									<div>
+										<h4 class="title title--h4">Graphics</h4>
+										<div>
+											<img class="toolbox-badge" src="./assets/img/badges/unity.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/hlsl.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/opengl.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/glsl.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/webgl.svg">
+										</div>
+									</div>
+									<br>
+
+									<!-- Streaming -->
+									<div>
+										<h4 class="title title--h4">Streaming</h4>
+										<div>
+											<img class="toolbox-badge" src="./assets/img/badges/ffmpeg.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/webrtc.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/pion.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/ndi.svg">
+										</div>
+									</div>
+									<br>
+
+									<!-- Web -->
+									<div>
+										<h4 class="title title--h4">Web</h4>
+										<div>
+											<img class="toolbox-badge" src="./assets/img/badges/html.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/css.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/reactjs.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/tailwindcss.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/alpinejs.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/nodejs.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/nestjs.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/electron.svg">
+										</div>
+									</div>
+									<br>
+
+									<!-- Environments -->
+									<div>
+										<h4 class="title title--h4">Environments</h4>
+										<div>
+											<img class="toolbox-badge" src="./assets/img/badges/windows.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/linux.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/visualstudio.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/visualstudiocode.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/git.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/mercurial.svg">
+											<img class="toolbox-badge" src="./assets/img/badges/docker.svg">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Portfolio -->
+				    <div x-show="nav===1" class="box box-content">
+						<div class="pb-0">
+
+							<!-- Gallery -->
+				            <div class="gallery-grid">
+
+					            <!-- MoCap VFX -->
+					            <figure class="gallery-grid__item">
+						            <div class="gallery-grid__image-wrap">
+                                        <a href="https://www.youtube.com/watch?v=z2Kst0t0PBA" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/mocap_vfx.jpg"></a>
+						            </div>
+                                    <figcaption class="gallery-grid__caption">
+							            <h4 class="title title--h6 gallery-grid__title">MoCap VFX</h4>
+							            <span class="gallery-grid__category">Demo</span>
+						            </figcaption>
+                                </figure>
+
+					            <!-- Everou VR -->
+					            <figure class="gallery-grid__item">
+						            <div class="gallery-grid__image-wrap">
+										<a href="https://www.youtube.com/watch?v=UE9zPuvrNMo" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/everou_vr.jpg"></a>
+									</div>	
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">Everou VR</h4>
+										<span class="gallery-grid__category">Virtual Reality</span>
+									</figcaption>
+								</figure>
+
+								<!-- Raymarching Library -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://github.com/adcimon/com.adcimon.raymarching" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/raymarching_library.jpg"></a>
+									</div>	
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">Raymarching Library</h4>
+										<span class="gallery-grid__category">Library</span>
+									</figcaption>
+								</figure>
+
+								<!-- The night is dark -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://adcimon.github.io/the-night-is-dark/" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/the_night_is_dark.jpg"></a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">The night is dark</h4>
+										<span class="gallery-grid__category">Videogame</span>
+									</figcaption>
+								</figure>
+
+								<!-- MDX Importer -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://github.com/adcimon/com.adcimon.mdx-importer" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/mdx_importer.jpg"></a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">MDX Importer</h4>
+										<span class="gallery-grid__category">Library</span>
+									</figcaption>
+								</figure>
+
+								<!-- Bounce Effect -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://github.com/adcimon/bounce-effect" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/bounce_effect.jpg"></a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">Bounce Effect</h4>
+										<span class="gallery-grid__category">Shader</span>
+									</figcaption>
+								</figure>
+
+								<!-- Morph Effect -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://github.com/adcimon/morph-effect" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/morph_effect.jpg"></a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">Morph Effect</h4>
+										<span class="gallery-grid__category">Shader</span>
+									</figcaption>
+								</figure>
+
+								<!-- Portal Room -->
+								<figure class="gallery-grid__item">
+									<div class="gallery-grid__image-wrap">
+										<a href="https://github.com/adcimon/portal-room" target="_blank"><img class="gallery-grid__image cover" src="./assets/img/projects/portal_room.jpg"></a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">Portal Room</h4>
+										<span class="gallery-grid__category">Shader</span>
+									</figcaption>
+								</figure>
+
+							</div>
+						</div>
+
+					</div>
+		        </div>
+			</div>
+		</div>
+
+    </main>
+
+</body>
+</html>
