@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="28" role="img" aria-label="HLSL"><title>HLSL</title><g shape-rendering="crispEdges"><rect width="57" height="28" fill="#141e24"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="285" y="175" textLength="330" fill="#fff" font-weight="bold">HLSL</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="28" role="img"
+    aria-label="HLSL">
+    <title>HLSL</title>
+    <g shape-rendering="crispEdges">
+        <rect width="57" height="28" fill="#141e24" />
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+        text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="285" y="175" textLength="330"
+            fill="#fff" font-weight="bold">HLSL</text></g>
+</svg>
