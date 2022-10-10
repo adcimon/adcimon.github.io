@@ -794,6 +794,7 @@ button:focus {
 	}
 }
 .header__contact li {
+	font-size: 0.850rem;
 	margin-bottom: 1rem;
 	word-break: break-all;
 }
