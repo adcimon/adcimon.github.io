@@ -52,9 +52,6 @@ h6 {
 	color: #aeb0b8;
 }
 
-.block-quote::before {
-	background-image: url(../icons/icon-quote-dark.svg);
-}
 .block-quote__author::before {
 	background-color: #aeb0b8;
 }
