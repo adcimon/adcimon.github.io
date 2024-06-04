@@ -9,9 +9,7 @@
 | - Sections
 | - Cases
 | - Navbar
-| - Gallery
 | - Timeline
-| - Other
 |
 */
 
@@ -24,6 +22,10 @@
 body {
 	background: #1d1e24;
 	color: #aeb0b8;
+}
+
+iframe {
+	background-color: #5e6e80;
 }
 
 /*
@@ -41,20 +43,8 @@ h6 {
 	color: #fcfcfc;
 }
 
-.title__separate::before {
-	background-color: #0d86ff;
-}
-
 .overhead {
 	color: #aeb0b8;
-}
-
-.block-quote__author::before {
-	background-color: #aeb0b8;
-}
-
-iframe {
-	background-color: #5e6e80;
 }
 
 /*
@@ -92,10 +82,6 @@ iframe {
 }
 .box__border {
 	border-color: #33363d;
-}
-
-.social__link {
-	color: #fcfcfc;
 }
 
 /*
@@ -160,45 +146,6 @@ iframe {
 
 /*
 |--------------------------------------------------------------------------
-| Gallery
-|--------------------------------------------------------------------------
-*/
-
-@media only screen and (min-width: 769px) {
-	.filter__item::before {
-		background-color: #aeb0b8;
-	}
-	.filter__item a {
-		color: rgba(174, 176, 184, 0.8);
-	}
-	.filter__item.active a {
-		color: #fcfcfc;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.select {
-		background-color: #2e2f36;
-	}
-	.select ul {
-		background-color: #2e2f36;
-		box-shadow: 0 0.625rem 3.75rem rgba(0, 0, 0, 0.5);
-	}
-	.select ul li {
-		color: #aeb0b8;
-	}
-	.select ul li:hover {
-		background-color: #0d86ff;
-	}
-	.select ul li:hover a {
-		color: #fcfcfc;
-	}
-	.select ul li a {
-		color: #aeb0b8;
-	}
-}
-
-/*
-|--------------------------------------------------------------------------
 | Timeline
 |--------------------------------------------------------------------------
 */
@@ -212,14 +159,4 @@ iframe {
 }
 .timeline__period {
 	color: rgba(174, 176, 184, 0.7);
-}
-
-/*
-|--------------------------------------------------------------------------
-| Other
-|--------------------------------------------------------------------------
-*/
-
-.medium-zoom-overlay {
-	background: #1d1e24 !important;
 }
