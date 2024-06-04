@@ -39,7 +39,7 @@
 	</head>
 
 	<body x-data="{ nav: 0 }">
-		<main class="main">
+		<main>
 			<!-- Header Image -->
 			<div class="header-image">
 				<div
@@ -57,7 +57,7 @@
 								src="images/avatar.png" />
 						</div>
 						<div class="header__base-info">
-							<h4 class="title titl--h4">Adrián Ciborro Montes</h4>
+							<h4 class="title">Adrián Ciborro Montes</h4>
 							<div class="status">Software Engineer</div>
 							<ul class="header__social">
 								<li>
@@ -101,8 +101,7 @@
 									x-on:click="nav=0"
 									class="nav__item">
 									<a
-										x-bind:class="{ 'active': nav==0 }"
-										href="#">
+										x-bind:class="{ 'active': nav==0 }">
 										<i class="icon-file"></i>Resume
 									</a>
 								</li>
@@ -110,9 +109,8 @@
 									x-on:click="nav=1"
 									class="nav__item">
 									<a
-										x-bind:class="{ 'active': nav==1 }"
-										href="#">
-										<i class="icon-image"></i>Portfolio
+										x-bind:class="{ 'active': nav==1 }">
+										<i class="icon-image"></i>Gallery
 									</a>
 								</li>
 							</ul>
@@ -603,7 +601,7 @@
 							</div>
 						</div>
 
-						<!-- Portfolio -->
+						<!-- Gallery -->
 						<div
 							x-show="nav===1"
 							class="box box-content">

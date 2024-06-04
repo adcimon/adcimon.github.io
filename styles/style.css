@@ -12,7 +12,7 @@
 | - Navbar
 | - Cases
 | - Contact
-| - Portfolio
+| - Gallery
 | - Timeline
 | - Other
 |
@@ -1269,7 +1269,7 @@ button:focus {
 
 /*
 |--------------------------------------------------------------------------
-| Portfolio
+| Gallery
 |--------------------------------------------------------------------------
 */
 
@@ -1522,30 +1522,4 @@ button:focus {
 .toolbox-badge {
 	border-radius: 5px;
 	margin: 2px;
-}
-
-.js-lines {
-	overflow: hidden;
-}
-.js-lines div {
-	overflow: hidden;
-}
-
-.js-words div div {
-	opacity: 0;
-}
-
-.medium-zoom-overlay {
-	background: #fff !important;
-	z-index: 1104;
-}
-
-.medium-zoom-image {
-	cursor: pointer !important;
-	z-index: 9;
-}
-.medium-zoom-image--opened {
-	border-radius: 1px;
-	height: 100%;
-	z-index: 1104;
 }
