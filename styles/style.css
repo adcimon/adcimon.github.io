@@ -14,7 +14,7 @@
 |
 */
 
-@import url(bootstrap.min.css);
+@import url(./bootstrap/bootstrap.min.css);
 @import url(../fonts/icomoon/icomoon.css);
 @import url(../fonts/poppins/poppins.css);
 
