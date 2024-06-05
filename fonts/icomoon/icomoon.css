@@ -3,7 +3,7 @@
 	font-family: 'icomoon';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.woff2') format('woff2');
+	src: url('./icomoon.woff') format('woff'), url('./icomoon.woff2') format('woff2');
 }
 
 [class^='icon-'],
