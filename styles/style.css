@@ -453,6 +453,9 @@ h6 {
 	}
 }
 @media only screen and (max-width: 991px) {
+	aside {
+		padding-bottom: 1rem;
+	}
 	.sidebar {
 		border-bottom: 1px solid #ebf0f2;
 		border-radius: 20px 20px 0 0;
@@ -632,7 +635,7 @@ h6 {
 
 @media only screen and (max-width: 991px) {
 	.box-content {
-		border-radius: 0 0 20px 20px;
+		border-radius: 20px;
 	}
 }
 @media only screen and (max-width: 580px) {
