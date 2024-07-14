@@ -35,7 +35,9 @@
 			href="styles/theme.css" />
 
 		<!-- Scripts -->
-		<script defer src="scripts/alpine/alpine.min.js"></script>
+		<script
+			defer
+			src="scripts/alpine/alpine.min.js"></script>
 	</head>
 
 	<body x-data="{ nav: 0 }">
@@ -100,18 +102,12 @@
 								<li
 									x-on:click="nav=0"
 									class="nav__item">
-									<a
-										x-bind:class="{ 'active': nav==0 }">
-										<i class="icon-file"></i>Resume
-									</a>
+									<a x-bind:class="{ 'active': nav==0 }"> <i class="icon-file"></i>Resume </a>
 								</li>
 								<li
 									x-on:click="nav=1"
 									class="nav__item">
-									<a
-										x-bind:class="{ 'active': nav==1 }">
-										<i class="icon-image"></i>Gallery
-									</a>
+									<a x-bind:class="{ 'active': nav==1 }"> <i class="icon-image"></i>Gallery </a>
 								</li>
 							</ul>
 						</div>
@@ -127,9 +123,12 @@
 							<div class="pb-0 pb-sm-2">
 								<p>
 									I'm a software engineer specialized in computer graphics, video streaming and web
-									development from Valencia, Spain. I love to work with creative technologies where
-									math and art blend. Check my <a href="https://github.com/adcimon">GitHub</a> to see
-									my open source projects!
+									development from Valencia, Spain. Passionate about working with technologies that
+									have a positive impact on users and projects that present a challenging opportunity
+									to grow. Take a look at my open source projects (<a
+										href="https://github.com/adcimon"
+										><i class="font-icon icon-github1"></i></a
+									>).
 								</p>
 							</div>
 
@@ -144,7 +143,8 @@
 											<div>
 												<h3 class="title title--h4">Computer Graphics</h3>
 												<p class="case-item__caption">
-													I design and develop 3D engines, simulations and videogames.
+													Experienced in the design and development of 3D engines, simulations
+													and videogames.
 												</p>
 											</div>
 										</div>
@@ -158,7 +158,7 @@
 												<h3 class="title title--h4">Video Streaming</h3>
 												<p class="case-item__caption">
 													Real-time streaming has proven to be one of the most valuable
-													technologies worldwide. I work with technologies that combine
+													technologies worldwide and I work with technologies that integrate
 													streaming and XR.
 												</p>
 											</div>
@@ -172,8 +172,7 @@
 											<div>
 												<h3 class="title title--h4">Web Development</h3>
 												<p class="case-item__caption">
-													Developing web applications with modern front-end and scalable
-													back-end technologies.
+													Building modern web applications with scalable cloud technologies.
 												</p>
 											</div>
 										</div>
@@ -186,7 +185,8 @@
 											<div>
 												<h3 class="title title--h4">Digital Art</h3>
 												<p class="case-item__caption">
-													Learning Photoshop, Blender and Substance Painter.
+													As part of my ongoing personal growth, I am improving my skills in
+													Photoshop and Blender.
 												</p>
 											</div>
 										</div>
@@ -243,7 +243,7 @@
 														</a>
 														(<a href="https://github.com/adcimon/com.adcimon.raymarching"
 															><i class="font-icon icon-github1"></i></a
-														>)
+														>).
 													</li>
 													<li>Computer graphics, game engines and mixed reality.</li>
 													<li>
@@ -326,8 +326,9 @@
 												<ul>
 													<li>
 														<a href="https://studiocall.brainstorm3d.com/"> StudioCall</a>:
-														Real-time streaming application to make 3D video conferences and operate
-														virtual productions (supports WebRTC, NDI, RTMP and HLS).
+														Real-time streaming application to make 3D video conferences and
+														operate virtual productions (supports WebRTC, NDI, RTMP and
+														HLS).
 													</li>
 													<li>
 														<a href="https://go.brainstorm3d.com/"> Brainstorm SaaS</a>:
@@ -370,8 +371,8 @@
 											<div class="timeline__description">
 												<ul>
 													<li>
-														<a href="https://www.baintex.com/uk/everou-app">Everou</a>:
-														Android/iOS application to control the home automation system.
+														<a href="https://www.baintex.com/">Everou</a>: Android/iOS
+														application to control the home automation system.
 													</li>
 													<li>
 														<a href="https://www.youtube.com/watch?v=UE9zPuvrNMo"
@@ -380,7 +381,7 @@
 														teach customers how to use the home automation system.
 													</li>
 													<li>
-														Development of an RTP real-time streaming pipeline that sends
+														Development of a RTP real-time streaming pipeline that sends
 														streams from the central hub to the application.
 													</li>
 												</ul>
@@ -397,7 +398,9 @@
 											<div class="timeline__period">Back-end Developer</div>
 											<div class="timeline__description">
 												<ul>
-													<li>Development and maintenance of Java EE, PHP and Node.js applications.</li>
+													<li>
+														Development and maintenance of Java EE and Node.js applications.
+													</li>
 												</ul>
 											</div>
 										</article>
@@ -607,6 +610,23 @@
 							<div class="pb-0">
 								<!-- Gallery -->
 								<div class="gallery-grid">
+									<!-- StudioCall -->
+									<figure class="gallery-grid__item">
+										<div class="gallery-grid__image-wrap">
+											<a
+												href="https://studiocall.brainstorm3d.com"
+												target="_blank">
+												<img
+													class="gallery-grid__image cover"
+													src="images/projects/studiocall.jpg" />
+											</a>
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">StudioCall</h4>
+											<span class="gallery-grid__category">Application</span>
+										</figcaption>
+									</figure>
+
 									<!-- Stylized Foliage -->
 									<figure class="gallery-grid__item">
 										<div class="gallery-grid__image-wrap">
@@ -689,6 +709,23 @@
 										<figcaption class="gallery-grid__caption">
 											<h4 class="title title--h6 gallery-grid__title">MoCap VFX</h4>
 											<span class="gallery-grid__category">Demo</span>
+										</figcaption>
+									</figure>
+
+									<!-- Everou -->
+									<figure class="gallery-grid__item">
+										<div class="gallery-grid__image-wrap">
+											<a
+												href="https://www.baintex.com/"
+												target="_blank">
+												<img
+													class="gallery-grid__image cover"
+													src="images/projects/everou.jpg" />
+											</a>
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Everou</h4>
+											<span class="gallery-grid__category">Application</span>
 										</figcaption>
 									</figure>
 
