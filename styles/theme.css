@@ -3,6 +3,7 @@
 | Index
 |--------------------------------------------------------------------------
 |
+| - Variables
 | - General
 | - Typography
 | - Header
@@ -12,6 +13,17 @@
 | - Timeline
 |
 */
+
+/*
+|--------------------------------------------------------------------------
+| Variables
+|--------------------------------------------------------------------------
+*/
+
+:root {
+	--primary-color: #0d86ff;
+	--secondary-color: #304cfd;
+}
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +78,7 @@ h6 {
 	color: #93959c;
 }
 .header__social a:hover {
-	color: #0d86ff;
+	color: var(--primary-color);
 }
 
 .header__contact {
@@ -95,7 +107,7 @@ h6 {
 	color: #aeb0b8;
 }
 .nav__item a:hover {
-	color: #0d86ff;
+	color: var(--primary-color);
 }
 @media only screen and (max-width: 580px) {
 	.nav__item a {
@@ -103,7 +115,7 @@ h6 {
 	}
 }
 .nav__item a.active {
-	background-color: #0d86ff;
+	background-color: var(--primary-color);
 	color: #fcfcfc;
 }
 .nav__item a.active:hover {
@@ -113,13 +125,13 @@ h6 {
 	.nav__item a.active {
 		background-color: transparent;
 		box-shadow: none;
-		color: #0d86ff;
+		color: var(--primary-color);
 	}
 	.nav__item a.active:hover {
-		color: #0d86ff;
+		color: var(--primary-color);
 	}
 	.nav__item a.active::before {
-		background-color: #0d86ff;
+		background-color: var(--primary-color);
 	}
 }
 
@@ -158,7 +170,7 @@ h6 {
 	border-color: #33363d;
 }
 .timeline__item::before {
-	background-color: #0d86ff;
+	background-color: var(--primary-color);
 	box-shadow: 0 0 0 0.1875rem rgba(13, 134, 255, 0.25);
 }
 

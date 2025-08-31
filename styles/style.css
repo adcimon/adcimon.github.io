@@ -33,11 +33,11 @@
 
 ::selection {
 	background: transparent;
-	color: #304cfd;
+	color: var(--secondary-color);
 }
 ::-moz-selection {
 	background: transparent;
-	color: #304cfd;
+	color: var(--secondary-color);
 }
 
 html {
@@ -79,13 +79,13 @@ footer {
 
 a {
 	-webkit-text-decoration-skip: objects;
-	color: #0d86ff;
+	color: var(--primary-color);
 	cursor: pointer;
 	text-decoration: none;
 	transition: color 0.3s cubic-bezier(0.72, 0.16, 0.345, 0.875);
 }
 a:hover {
-	color: #0d86ff;
+	color: var(--primary-color);
 	outline: none;
 	text-decoration: underline;
 }
@@ -204,7 +204,7 @@ h6 {
 }
 
 .title--tone {
-	color: #304cfd;
+	color: var(--secondary-color);
 }
 
 .title-icon {
@@ -387,7 +387,7 @@ h6 {
 	text-decoration: none;
 }
 .header__social a:hover {
-	color: #304cfd;
+	color: var(--secondary-color);
 }
 @media only screen and (max-width: 991px) {
 	.header__social {
@@ -534,7 +534,7 @@ h6 {
 	min-width: 0;
 }
 .nav__item a:hover {
-	color: #304cfd;
+	color: var(--secondary-color);
 }
 @media only screen and (max-width: 1200px) {
 	.nav__item a {
@@ -553,7 +553,7 @@ h6 {
 	}
 }
 .nav__item a.active {
-	background-color: #0d86ff;
+	background-color: var(--primary-color);
 	color: #fff;
 }
 .nav__item a.active:hover {
@@ -563,13 +563,13 @@ h6 {
 	.nav__item a.active {
 		background-color: transparent;
 		box-shadow: none;
-		color: #304cfd;
+		color: var(--secondary-color);
 	}
 	.nav__item a.active:hover {
-		color: #304cfd;
+		color: var(--secondary-color);
 	}
 	.nav__item a.active::before {
-		background-color: #304cfd;
+		background-color: var(--secondary-color);
 		bottom: -0.5rem;
 		content: '';
 		height: 0.125rem;
@@ -746,7 +746,7 @@ h6 {
 	position: relative;
 }
 .timeline__item::before {
-	background-color: #304cfd;
+	background-color: var(--secondary-color);
 	border-radius: 50%;
 	box-shadow: 0 0 0 0.1875rem rgba(48, 76, 253, 0.25);
 	content: '';
