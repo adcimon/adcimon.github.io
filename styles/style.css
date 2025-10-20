@@ -799,6 +799,7 @@ h6 {
 
 .gallery-grid__item {
 	margin-bottom: 1.25rem;
+	position: relative;
 	width: calc(33% - 18px);
 }
 @media only screen and (max-width: 991px) {
@@ -857,4 +858,28 @@ h6 {
 .gallery-grid__category {
 	display: block;
 	font-size: 0.875rem;
+}
+
+/* Reference: https://css-generators.com/ribbon-shapes/ */
+.ribbon {
+	--color: var(--primary-color);
+	--radius: 0.5em;
+
+	background:
+		radial-gradient(100% 50% at right, var(--color) 98%, #0000 101%) 0 0 / 0.5lh calc(100% - 2 * var(--radius)),
+		radial-gradient(100% 50% at left, #0005 98%, #0000 101%) 100% 100% / var(--radius) calc(2 * var(--radius)),
+		conic-gradient(from 180deg at calc(100% - var(--radius)) calc(100% - 2 * var(--radius)), #0000 25%, var(--color) 0) 100% 0 / calc(100% - 0.5lh) 100%;
+	background-repeat: no-repeat;
+	border-radius: 0 var(--radius) var(--radius) 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.8;
+	opacity: 0.7;
+	padding: 0 0.5em calc(2*var(--radius));
+	position: absolute;
+	right: calc(-1 * var(--radius));
+	top: 10px;
+	width: 100px;
+	z-index: 10;
 }
