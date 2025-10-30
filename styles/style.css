@@ -14,7 +14,6 @@
 |
 */
 
-@import url(./bootstrap/bootstrap.min.css);
 @import url(../fonts/icomoon/icomoon.css);
 @import url(../fonts/poppins/poppins.css);
 
@@ -113,6 +112,13 @@ iframe {
 .toolbox-badge {
 	border-radius: 5px;
 	margin: 2px;
+}
+
+/* Bootstrap 5 XL breakpoint max-width */
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1140px;
+	}
 }
 
 /*
