@@ -41,21 +41,11 @@
 }
 
 html {
-	-ms-overflow-x: hidden;
-	-webkit-box-sizing: border-box;
-	-webkit-overflow-scrolling: touch;
 	box-sizing: border-box;
 	font-size: 1rem;
 }
 
-body,
-html {
-	-webkit-text-size-adjust: 100%;
-}
-
 body {
-	-ms-overflow-style: scrollbar;
-	-webkit-font-smoothing: antialiased;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background: linear-gradient(145.44deg, #f2f4fa 0%, #fafbfc 100%);
@@ -94,9 +84,6 @@ a.decoration--none {
 }
 
 img {
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-webkit-user-select: none;
 	max-width: 100%;
 	user-select: none;
 }
