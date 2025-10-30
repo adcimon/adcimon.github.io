@@ -233,7 +233,8 @@ h6 {
 |--------------------------------------------------------------------------
 */
 
-.header-image {
+.header-banner {
+	display: flex;
 	height: 19.75rem;
 	left: 0;
 	position: absolute;
@@ -241,12 +242,12 @@ h6 {
 	width: 100%;
 }
 
-.header-banner {
+.header-banner__image {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	flex: 1;
 	height: 100%;
-	position: relative;
 }
 
 .header {
@@ -865,10 +866,15 @@ h6 {
 	--color: var(--primary-color);
 	--radius: 0.5em;
 
-	background:
-		radial-gradient(100% 50% at right, var(--color) 98%, #0000 101%) 0 0 / 0.5lh calc(100% - 2 * var(--radius)),
+	background: radial-gradient(100% 50% at right, var(--color) 98%, #0000 101%) 0 0 / 0.5lh
+			calc(100% - 2 * var(--radius)),
 		radial-gradient(100% 50% at left, #0005 98%, #0000 101%) 100% 100% / var(--radius) calc(2 * var(--radius)),
-		conic-gradient(from 180deg at calc(100% - var(--radius)) calc(100% - 2 * var(--radius)), #0000 25%, var(--color) 0) 100% 0 / calc(100% - 0.5lh) 100%;
+		conic-gradient(
+				from 180deg at calc(100% - var(--radius)) calc(100% - 2 * var(--radius)),
+				#0000 25%,
+				var(--color) 0
+			)
+			100% 0 / calc(100% - 0.5lh) 100%;
 	background-repeat: no-repeat;
 	border-radius: 0 var(--radius) var(--radius) 0;
 	color: #fff;
@@ -876,7 +882,7 @@ h6 {
 	font-weight: bold;
 	line-height: 1.8;
 	opacity: 0.7;
-	padding: 0 0.5em calc(2*var(--radius));
+	padding: 0 0.5em calc(2 * var(--radius));
 	position: absolute;
 	right: calc(-1 * var(--radius));
 	top: 10px;

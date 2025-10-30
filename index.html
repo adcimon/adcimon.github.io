@@ -42,10 +42,16 @@
 
 	<body x-data="{ nav: 0 }">
 		<main>
-			<div class="header-image">
+			<div class="header-banner">
 				<div
-					class="header-banner"
-					style="background-image: url(images/banner.png)"></div>
+					class="header-banner__image"
+					style="background-image: url(images/banners/banner1.png); background-size: 100% auto"></div>
+				<div
+					class="header-banner__image"
+					style="background-image: url(images/banners/banner2.png); background-size: 100% auto"></div>
+				<div
+					class="header-banner__image"
+					style="background-image: url(images/banners/banner3.png); background-size: 130% auto"></div>
 			</div>
 
 			<div class="container gutter-top">
@@ -327,7 +333,7 @@
 														<a href="https://studiocall.brainstorm3d.com/"> StudioCall</a>:
 														Real-time streaming application for 3D video conferencing and
 														live virtual productions used in broadcast environments and
-														compatible with WebRTC, NDI, RTMP and HLS protocols.
+														compatible with WebRTC, NDI, RTMP and HLS.
 													</li>
 													<li>
 														<a href="https://go.brainstorm3d.com/"> Brainstorm SaaS</a>:
@@ -351,8 +357,11 @@
 														collaboration.
 													</li>
 													<li>
-														Development of a WebRTC/NDI real-time streaming pipeline that
-														routes remote streams from/to Brainstorm Suite products.
+														Development of a WebRTC/NDI real-time streaming pipeline with
+														<a href="https://webrtc.googlesource.com/src/">libwebrtc</a> and
+														<a href="https://ndi.video/for-developers/ndi-sdk/">ndi-sdk</a>
+														that allows remote control and previsualization of Brainstorm
+														Suite products.
 													</li>
 													<li>
 														<strong>Research & Development:</strong> Leading role in
@@ -520,10 +529,10 @@
 											<div>
 												<img
 													class="toolbox-badge"
-													src="https://adcimon.github.io/badges/unity.svg" />
+													src="https://adcimon.github.io/badges/unreal.svg" />
 												<img
 													class="toolbox-badge"
-													src="https://adcimon.github.io/badges/unreal.svg" />
+													src="https://adcimon.github.io/badges/unity.svg" />
 												<img
 													class="toolbox-badge"
 													src="https://adcimon.github.io/badges/hlsl.svg" />
