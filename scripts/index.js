@@ -8,11 +8,6 @@ function main() {
 }
 
 function prepareCV() {
-	const banner = document.getElementById('banner');
-	if (banner) {
-		banner.remove();
-	}
-
 	const navbar = document.getElementById('navbar');
 	if (navbar) {
 		navbar.remove();
