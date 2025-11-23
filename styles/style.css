@@ -874,7 +874,7 @@ h6 {
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 1.8;
-	opacity: 0.7;
+	opacity: 0.6;
 	padding: 0 0.5em calc(2 * var(--radius));
 	position: absolute;
 	right: calc(-1 * var(--radius));
