@@ -109,6 +109,12 @@ iframe {
 	}
 }
 
+.stack-badge {
+	border-radius: 5px;
+	margin: 2px -4px;
+	transform: scale(0.85);
+}
+
 .toolbox-badge {
 	border-radius: 5px;
 	margin: 2px;
