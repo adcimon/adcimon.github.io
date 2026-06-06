@@ -1,6 +1,6 @@
 import { html } from '../../html.js';
 
-const toolboxData = {
+const toolboxBadges = {
 	Languages: ['c', 'cpp', 'csharp', 'python', 'go', 'javascript', 'typescript'],
 	Web: ['http', 'html', 'css', 'svg', 'tailwindcss', 'mui', 'react', 'vite', 'nodejs', 'nestjs', 'electron'],
 	Cloud: ['aws', 'stripe'],
@@ -32,7 +32,7 @@ export function Toolbox() {
 				</h2>
 				<p>Core technology stack and familiar tools.</p>
 				<div class="box box__border">
-					${Object.entries(toolboxData).map(
+					${Object.entries(toolboxBadges).map(
 						([category, badges], idx) => html`
 							<div key=${category}>
 								<h4 class="title title--h4">${category}</h4>
@@ -46,7 +46,7 @@ export function Toolbox() {
 										`,
 									)}
 								</div>
-								${idx < Object.keys(toolboxData).length - 1 ? html`<br />` : null}
+								${idx < Object.keys(toolboxBadges).length - 1 ? html`<br />` : null}
 							</div>
 						`,
 					)}

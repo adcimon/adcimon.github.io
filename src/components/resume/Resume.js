@@ -7,7 +7,9 @@ import { Certifications } from './Certifications.js';
 import { Toolbox } from './Toolbox.js';
 
 export function Resume({ show }) {
-	if (!show) return null;
+	if (!show) {
+		return null;
+	}
 
 	return html`
 		<div class="box box-content">
