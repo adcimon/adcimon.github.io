@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color-text-primary);
+	font-family: var(--font-main);
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.title--h1 {
+	font-size: 2rem;
+	margin-bottom: 1.3rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h1 {
+		font-size: 1.75rem;
+		margin-bottom: 1rem;
+	}
+}
+
+.title--h2 {
+	font-size: 1.625rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h2 {
+		font-size: 1.375rem;
+	}
+}
+
+.title--h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h3 {
+		font-size: 1.125rem;
+	}
+}
+
+.title--h4 {
+	font-size: 1.125rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h4 {
+		font-size: 1rem;
+	}
+}
+
+.title--h5 {
+	font-size: 1rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h5 {
+		font-size: 0.875rem;
+	}
+}
+
+.title--h6 {
+	font-size: 0.875rem;
+}
+@media only screen and (max-width: 580px) {
+	.title--h6 {
+		font-size: 0.75rem;
+	}
+}
+
+.title--tone {
+	color: var(--color-primary);
+}
+
+.title-icon {
+	height: 1.875rem;
+	margin-right: 0.5rem;
+	margin-top: -0.25rem;
+	width: 1.875rem;
+}
+@media only screen and (max-width: 580px) {
+	.title-icon {
+		height: 1.5625rem;
+		width: 1.875rem;
+	}
+}
+
+.overhead {
+	color: var(--color-text-secondary);
+	display: block;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
