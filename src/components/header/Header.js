@@ -1,8 +1,14 @@
 import { html } from '../../html.js';
 
-export function Header() {
+export function Header({ theme, toggleTheme }) {
 	return html`
 		<header class="header box">
+			<button
+				class="theme-toggle-btn"
+				onClick=${toggleTheme}
+				aria-label="Toggle theme">
+				<i class=${theme === 'light' ? 'icon-moon' : 'icon-sun'}></i>
+			</button>
 			<div class="header__left">
 				<div class="header__photo">
 					<img

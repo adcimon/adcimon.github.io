@@ -46,6 +46,9 @@ body {
 	line-height: 1.7;
 	min-height: 100vh;
 	overflow-x: hidden;
+	transition:
+		background-color var(--transition-smooth),
+		color var(--transition-smooth);
 }
 @media only screen and (max-width: 576px) {
 	body {

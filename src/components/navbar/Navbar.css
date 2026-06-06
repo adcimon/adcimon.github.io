@@ -70,7 +70,7 @@
 
 .nav__item a {
 	align-items: center;
-	background-color: #2e2f36;
+	background-color: var(--color-bg-nav-mobile);
 	border: 1px solid var(--color-border);
 	border-radius: 1.25rem;
 	color: var(--color-text-secondary);

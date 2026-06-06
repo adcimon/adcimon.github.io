@@ -5,10 +5,30 @@ import { Resume } from './resume/Resume.js';
 import { Gallery } from './gallery/Gallery.js';
 
 export function App() {
-	const [nav, setNav] = React.useState(0);
-
 	const params = new URLSearchParams(window.location.search);
 	const isCV = params.has('cv');
+
+	const [nav, setNav] = React.useState(0);
+	const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'dark');
+
+	React.useEffect(() => {
+		if (theme === 'light') {
+			document.body.className = 'light-theme';
+		} else {
+			document.body.className = 'dark-theme';
+		}
+		localStorage.setItem('theme', theme);
+	}, [theme]);
+
+	const toggleTheme = () => {
+		setTheme((prev) => {
+			if (prev === 'light') {
+				return 'dark';
+			} else {
+				return 'light';
+			}
+		});
+	};
 
 	return html`
 		<main>
@@ -27,7 +47,9 @@ export function App() {
 			</div>
 
 			<div class="container gutter-top">
-				<${Header} />
+				<${Header}
+					theme=${theme}
+					toggleTheme=${toggleTheme} />
 
 				<div class="row sticky-parent">
 					${!isCV
