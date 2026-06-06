@@ -1,13 +1,13 @@
 .box {
+	backdrop-filter: blur(12px);
 	background-color: var(--color-bg-card);
 	border: 1px solid var(--color-border);
 	border-radius: var(--radius-card);
 	box-shadow: var(--shadow-card);
 	padding: 1.875rem;
 	position: relative;
-	backdrop-filter: blur(12px);
-	-webkit-backdrop-filter: blur(12px);
 	transition: all var(--transition-smooth);
+	-webkit-backdrop-filter: blur(12px);
 }
 @media only screen and (max-width: 576px) {
 	.box {
@@ -16,9 +16,9 @@
 }
 
 .box__border {
-	border-radius: var(--radius-card);
-	border: 2px solid var(--color-border);
 	background-color: var(--color-bg-border-box);
+	border: 2px solid var(--color-border);
+	border-radius: var(--radius-card);
 }
 @media only screen and (max-width: 576px) {
 	.box__border {

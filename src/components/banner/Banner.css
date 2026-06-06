@@ -3,9 +3,9 @@
 }
 
 .header-banner .swiper-pagination {
-	top: 1rem;
 	bottom: auto !important;
 	text-align: center;
+	top: 1rem;
 	z-index: 10;
 }
 

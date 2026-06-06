@@ -35,9 +35,9 @@ html {
 }
 
 body {
+	background: var(--color-bg-body);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background: var(--color-bg-body);
 	color: var(--color-text-secondary);
 	font-family: var(--font-main);
 	font-size: 0.875rem;
@@ -60,11 +60,11 @@ footer {
 }
 
 a {
-	-webkit-text-decoration-skip: objects;
 	color: var(--color-primary);
 	cursor: pointer;
 	text-decoration: none;
 	transition: color var(--transition-smooth);
+	-webkit-text-decoration-skip: objects;
 }
 a:hover {
 	color: var(--color-secondary);
