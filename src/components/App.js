@@ -3,6 +3,7 @@ import { Header } from './header/Header.js';
 import { Navbar } from './navbar/Navbar.js';
 import { Resume } from './resume/Resume.js';
 import { Gallery } from './gallery/Gallery.js';
+import { Banner } from './banner/Banner.js';
 
 export function App() {
 	const params = new URLSearchParams(window.location.search);
@@ -32,19 +33,7 @@ export function App() {
 
 	return html`
 		<main>
-			<div
-				id="banner"
-				class="header-banner">
-				<div
-					class="header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner1.png)' }}></div>
-				<div
-					class="header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner2.png)' }}></div>
-				<div
-					class="header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner3.png)' }}></div>
-			</div>
+			<${Banner} />
 
 			<div class="container gutter-top">
 				<${Header}

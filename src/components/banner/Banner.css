@@ -1,0 +1,22 @@
+.header-banner {
+	z-index: 0;
+}
+
+.header-banner .swiper-pagination {
+	top: 1rem;
+	bottom: auto !important;
+	text-align: center;
+	z-index: 10;
+}
+
+.header-banner .swiper-pagination-bullet {
+	background: var(--color-text-secondary);
+	opacity: 0.5;
+	transition: all var(--transition-smooth);
+}
+
+.header-banner .swiper-pagination-bullet-active {
+	background: var(--color-primary);
+	opacity: 1;
+	transform: scale(1.2);
+}
