@@ -125,36 +125,76 @@ const projects = [
 export function Gallery({ show }) {
 	if (!show) return null;
 
+	const professionalProjects = projects.filter((project) => !project.isSide);
+	const sideProjects = projects.filter((project) => project.isSide);
+
 	return html`
-		<div class="box box-content">
-			<div class="pb-0 pb-sm-2">
-				<p>Collection of my work featuring both professional and side projects built along my career.</p>
+		<div>
+			<div class="box box-content">
+				<div class="pb-0 pb-sm-2">
+					<h3 class="title title--h3">Professional</h3>
+					<p>Collection of professional work built along my career.</p>
+				</div>
+
+				<div class="pb-0">
+					<div class="gallery-grid">
+						${professionalProjects.map(
+							(project) => html`
+								<figure
+									class="gallery-grid__item"
+									key=${project.title}>
+									<div class="gallery-grid__image-wrap">
+										<a
+											href=${project.url}
+											target="_blank">
+											<img
+												class="gallery-grid__image cover"
+												src=${project.image} />
+										</a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">${project.title}</h4>
+										<span class="gallery-grid__category">${project.category}</span>
+									</figcaption>
+								</figure>
+							`,
+						)}
+					</div>
+				</div>
 			</div>
 
-			<div class="pb-0">
-				<div class="gallery-grid">
-					${projects.map(
-						(project) => html`
-							<figure
-								class="gallery-grid__item"
-								key=${project.title}>
-								${project.isSide ? html`<div class="ribbon">Side</div>` : null}
-								<div class="gallery-grid__image-wrap">
-									<a
-										href=${project.url}
-										target="_blank">
-										<img
-											class="gallery-grid__image cover"
-											src=${project.image} />
-									</a>
-								</div>
-								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">${project.title}</h4>
-									<span class="gallery-grid__category">${project.category}</span>
-								</figcaption>
-							</figure>
-						`,
-					)}
+			<br />
+
+			<div class="box box-content">
+				<div class="pb-0 pb-sm-2">
+					<h3 class="title title--h3">Side</h3>
+					<p>Personal and side projects developed to explore new technologies.</p>
+				</div>
+
+				<div class="pb-0">
+					<div class="gallery-grid">
+						${sideProjects.map(
+							(project) => html`
+								<figure
+									class="gallery-grid__item"
+									key=${project.title}>
+									<div class="gallery-grid__image-wrap">
+										<a
+											href=${project.url}
+											target="_blank">
+											<img
+												class="gallery-grid__image cover"
+												src=${project.image} />
+										</a>
+									</div>
+									<figcaption class="gallery-grid__caption">
+										<h4 class="title title--h6 gallery-grid__title">${project.title}</h4>
+										<span class="gallery-grid__category">${project.category}</span>
+									</figcaption>
+								</figure>
+							`,
+						)}
+					</div>
 				</div>
 			</div>
 		</div>
