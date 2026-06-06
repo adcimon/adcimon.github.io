@@ -211,18 +211,21 @@
 
 .theme-toggle-btn {
 	position: absolute;
-	top: 1.5rem;
-	right: 1.5rem;
+	top: 0.75rem;
+	right: 0.75rem;
 	background: var(--color-bg-card-hover);
 	border: 1px solid var(--color-border);
 	color: var(--color-text-primary);
 	border-radius: 50%;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2.25rem;
+	height: 2.25rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	box-shadow: var(--shadow-card-hover);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
 	transition: all var(--transition-smooth);
 	z-index: 10;
 	padding: 0;
@@ -233,5 +236,5 @@
 	transform: scale(1.1);
 }
 .theme-toggle-btn i {
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 }
