@@ -1,9 +1,14 @@
 @import url(../../assets/fonts/icomoon/icomoon.css);
 @import url(../../assets/fonts/poppins/poppins.css);
+
 @import url(variables.css);
 @import url(general.css);
 @import url(typography.css);
+
 @import url(../components/resume/Resume.css);
+@import url(../components/resume/Expertise.css);
+@import url(../components/resume/Timeline.css);
+@import url(../components/resume/Toolbox.css);
 @import url(../components/header/Header.css);
 @import url(../components/navbar/Navbar.css);
 @import url(../components/gallery/Gallery.css);

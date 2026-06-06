@@ -14,7 +14,6 @@
 	color: var(--color-secondary);
 }
 
-/* Custom Scrollbar for modern feel */
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -113,16 +112,6 @@ iframe {
 	transform: scale(1);
 }
 
-.toolbox-badge {
-	border-radius: var(--radius-badge);
-	margin: 2px;
-	transition: transform var(--transition-smooth);
-}
-.toolbox-badge:hover {
-	transform: scale(1.1);
-}
-
-/* Bootstrap 5 XL breakpoint max-width */
 @media (min-width: 1400px) {
 	.container {
 		max-width: 1140px;

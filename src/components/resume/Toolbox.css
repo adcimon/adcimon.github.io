@@ -1,0 +1,8 @@
+.toolbox-badge {
+	border-radius: var(--radius-badge);
+	margin: 2px;
+	transition: transform var(--transition-smooth);
+}
+.toolbox-badge:hover {
+	transform: scale(1.1);
+}
