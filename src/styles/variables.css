@@ -33,16 +33,16 @@ body.dark-theme {
 }
 
 body.light-theme {
-	--color-bg-body: #f4f6fa;
+	--color-bg-body: #e4e8f0;
 	--color-bg-border-box: rgba(240, 242, 245, 0.4);
-	--color-bg-card: rgba(255, 255, 255, 0.85);
-	--color-bg-card-hover: rgba(245, 247, 250, 0.95);
+	--color-bg-card: rgba(250, 251, 253, 0.75);
+	--color-bg-card-hover: rgba(245, 247, 250, 0.85);
 	--color-bg-case-item: rgba(240, 242, 245, 0.5);
 	--color-bg-case-item-hover: rgba(230, 235, 245, 0.8);
-	--color-bg-nav-mobile: #ffffff;
+	--color-bg-nav-mobile: #f0f2f6;
 	--color-border: rgba(210, 214, 223, 0.8);
 	--color-border-hover: rgba(13, 134, 255, 0.6);
-	--color-overlay: rgba(255, 255, 255, 0.2);
+	--color-overlay: rgba(0, 0, 0, 0.05);
 	--color-primary: #0d86ff;
 	--color-secondary: #304cfd;
 	--color-text-muted: rgba(90, 93, 106, 0.7);
