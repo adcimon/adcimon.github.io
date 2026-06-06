@@ -23,7 +23,7 @@ const services = [
 	},
 ];
 
-export function WhatIDo() {
+export function Expertise() {
 	return html`
 		<div class="mt-1">
 			<div class="row">

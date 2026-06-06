@@ -4,13 +4,11 @@ import { Navbar } from './navbar/Navbar.js';
 import { Resume } from './resume/Resume.js';
 import { Gallery } from './gallery/Gallery.js';
 
-const { useState } = React;
-
 export function App() {
-	const [nav, setNav] = useState(0);
+	const [nav, setNav] = React.useState(0);
 
 	const params = new URLSearchParams(window.location.search);
-	const isCVMode = params.has('cv');
+	const isCV = params.has('cv');
 
 	return html`
 		<main>
@@ -32,7 +30,7 @@ export function App() {
 				<${Header} />
 
 				<div class="row sticky-parent">
-					${!isCVMode
+					${!isCV
 						? html`<${Navbar}
 								activeTab=${nav}
 								setActiveTab=${setNav} />`
@@ -40,7 +38,7 @@ export function App() {
 
 					<div
 						id="sections"
-						class=${isCVMode ? 'col-12 col-md-12 col-lg-12' : 'col-12 col-md-12 col-lg-10'}>
+						class=${isCV ? 'col-12 col-md-12 col-lg-12' : 'col-12 col-md-12 col-lg-10'}>
 						<${Resume} show=${nav === 0} />
 						<${Gallery} show=${nav === 1} />
 					</div>

@@ -1,6 +1,6 @@
 import { html } from '../../html.js';
 import { About } from './About.js';
-import { WhatIDo } from './WhatIDo.js';
+import { Expertise } from './Expertise.js';
 import { Education } from './Education.js';
 import { Experience } from './Experience.js';
 import { Certifications } from './Certifications.js';
@@ -12,7 +12,7 @@ export function Resume({ show }) {
 	return html`
 		<div class="box box-content">
 			<${About} />
-			<${WhatIDo} />
+			<${Expertise} />
 			<${Education} />
 			<${Experience} />
 			<${Certifications} />

@@ -6,7 +6,7 @@ const toolboxData = {
 	Cloud: ['aws', 'stripe'],
 	Databases: ['mysql', 'postgresql', 'mongodb', 'dynamodb', 'redis', 'sqlite'],
 	Streaming: ['ffmpeg', 'gstreamer', 'webrtc', 'pion', 'livekit', 'ndi'],
-	Graphics: ['unreal', 'unity', 'directx', 'hlsl', 'opengl', 'glsl', 'threejs', 'webgl', 'boost'],
+	Graphics: ['unreal', 'unity', 'directx', 'hlsl', 'opengl', 'glsl', 'threejs', 'webgl'],
 	DevOps: ['windows', 'linux', 'cmake', 'git', 'mercurial', 'github', 'gitlab', 'jenkins', 'docker', 'terraform'],
 	Programs: [
 		'visual_studio',
