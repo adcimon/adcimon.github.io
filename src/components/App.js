@@ -1,8 +1,8 @@
 import { html } from '../html.js';
-import { Header } from './Header.js';
-import { Navbar } from './Navbar.js';
-import { Resume } from './Resume.js';
-import { Gallery } from './Gallery.js';
+import { Header } from './header/Header.js';
+import { Navbar } from './navbar/Navbar.js';
+import { Resume } from './resume/Resume.js';
+import { Gallery } from './gallery/Gallery.js';
 
 const { useState } = React;
 

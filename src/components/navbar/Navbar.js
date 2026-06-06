@@ -1,4 +1,4 @@
-import { html } from '../html.js';
+import { html } from '../../html.js';
 
 export function Navbar({ activeTab, setActiveTab }) {
 	const handleTabClick = (e, tabIndex) => {
