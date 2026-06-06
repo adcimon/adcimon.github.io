@@ -1,3 +1,3 @@
-import htm from './vendor/htm.module.js';
+import htm from './vendor/htm/htm.module.js';
 
 export const html = htm.bind(React.createElement);
