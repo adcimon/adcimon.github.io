@@ -11,60 +11,34 @@ h6 {
 }
 
 .title--h1 {
-	font-size: 2rem;
+	font-size: clamp(1.65rem, 4.5vw, 2.125rem);
 	margin-bottom: 1.3rem;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.title--h1 {
-		font-size: 1.75rem;
 		margin-bottom: 1rem;
 	}
 }
 
 .title--h2 {
-	font-size: 1.625rem;
-}
-@media only screen and (max-width: 580px) {
-	.title--h2 {
-		font-size: 1.375rem;
-	}
+	font-size: clamp(1.35rem, 3.8vw, 1.75rem);
 }
 
 .title--h3 {
-	font-size: 1.5rem;
+	font-size: clamp(1.2rem, 3.2vw, 1.5rem);
 	margin-bottom: 1rem;
-}
-@media only screen and (max-width: 580px) {
-	.title--h3 {
-		font-size: 1.125rem;
-	}
 }
 
 .title--h4 {
-	font-size: 1.125rem;
-}
-@media only screen and (max-width: 580px) {
-	.title--h4 {
-		font-size: 1rem;
-	}
+	font-size: clamp(1rem, 2.5vw, 1.15rem);
 }
 
 .title--h5 {
-	font-size: 1rem;
-}
-@media only screen and (max-width: 580px) {
-	.title--h5 {
-		font-size: 0.875rem;
-	}
+	font-size: clamp(0.875rem, 2.2vw, 1rem);
 }
 
 .title--h6 {
-	font-size: 0.875rem;
-}
-@media only screen and (max-width: 580px) {
-	.title--h6 {
-		font-size: 0.75rem;
-	}
+	font-size: clamp(0.75rem, 1.8vw, 0.875rem);
 }
 
 .title--tone {
@@ -77,7 +51,7 @@ h6 {
 	margin-top: -0.25rem;
 	width: 1.875rem;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.title-icon {
 		height: 1.5625rem;
 		width: 1.875rem;

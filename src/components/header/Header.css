@@ -22,12 +22,12 @@
 .header > * {
 	min-width: 0;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header {
 		flex-direction: column;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.header {
 		margin-bottom: 0.9375rem;
 	}
@@ -53,7 +53,7 @@
 	top: 0;
 	width: 1px;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__left {
 		align-items: center;
 		flex-direction: column;
@@ -80,7 +80,7 @@
 .header__right > * {
 	min-width: 0;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__right {
 		padding-left: 0;
 		padding-top: 1.875rem;
@@ -89,7 +89,7 @@
 		padding: 0;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.header__right {
 		flex-direction: column;
 		padding-top: 1.5rem;
@@ -106,7 +106,7 @@
 	overflow: hidden;
 	width: 10.125rem;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__photo {
 		margin-bottom: 1.25rem;
 		margin-top: -5rem;
@@ -121,7 +121,7 @@
 .header__base-info {
 	margin-left: 1.5rem;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__base-info {
 		margin-left: 0;
 	}
@@ -158,7 +158,7 @@
 	color: var(--color-primary);
 	transform: scale(1.2);
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__social {
 		justify-content: center;
 	}
@@ -170,13 +170,13 @@
 	margin-bottom: 0;
 	width: 50%;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.header__contact:first-child {
 		margin-bottom: 1rem;
 		padding: 0;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.header__contact {
 		padding: 0;
 		width: 100%;
@@ -190,7 +190,7 @@
 	margin-bottom: 1rem;
 	word-break: break-all;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.header__contact li {
 		margin-bottom: 0.75rem;
 	}

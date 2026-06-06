@@ -6,7 +6,7 @@
 		padding: 1.5rem;
 	}
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	aside {
 		padding-bottom: 1rem;
 	}
@@ -16,7 +16,7 @@
 		padding: 1.875rem;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.sidebar {
 		border-bottom: 0;
 		border-radius: 0;
@@ -55,7 +55,7 @@
 		height: 5.125rem;
 	}
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.nav__item {
 		margin-bottom: 0;
 		width: calc(20% - 1rem);
@@ -66,7 +66,7 @@
 		width: calc(20% - 0.5rem);
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.nav__item {
 		height: auto;
 		width: calc(20% - 0rem);
@@ -108,7 +108,7 @@
 		font-size: 0.6875rem;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.nav__item a {
 		background-color: transparent;
 		border: 0;
@@ -127,7 +127,7 @@
 .nav__item a.active:hover {
 	color: var(--color-text-primary);
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.nav__item a.active {
 		background-color: transparent;
 		border-color: transparent;
@@ -165,7 +165,7 @@
 		font-size: 1.5rem;
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.nav__item [class^='icon-'] {
 		font-size: 1.0625rem;
 		margin-top: 0.375rem;

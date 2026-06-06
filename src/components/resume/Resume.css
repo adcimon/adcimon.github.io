@@ -10,7 +10,7 @@
 	-webkit-backdrop-filter: blur(12px);
 	transition: all var(--transition-smooth);
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.box {
 		padding: 1rem;
 	}
@@ -21,19 +21,19 @@
 	border: 2px solid var(--color-border);
 	background-color: rgba(30, 31, 38, 0.4);
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.box__border {
 		border-radius: var(--radius-card-sm);
 		padding: 1rem;
 	}
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.box-content {
 		border-radius: var(--radius-card);
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.box-content {
 		border-radius: var(--radius-card-sm);
 	}
@@ -42,7 +42,7 @@
 .gutter-top {
 	padding-top: 14.375rem;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.gutter-top {
 		padding-top: 5rem;
 	}
@@ -75,12 +75,12 @@
 	box-shadow: var(--shadow-card-hover);
 	background-color: rgba(46, 47, 54, 0.4);
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.case-item {
 		height: calc(100% - 20px);
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.case-item {
 		border-radius: var(--radius-card-sm);
 		height: calc(100% - 15px);
@@ -99,7 +99,7 @@
 .case-item:hover .case-item__icon {
 	transform: scale(1.1);
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.case-item__icon {
 		margin-bottom: 0.8125rem;
 	}
@@ -109,7 +109,7 @@
 	line-height: 1.5;
 	color: var(--color-text-secondary);
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.case-item__caption {
 		font-size: 0.8125rem;
 		line-height: 1.4;
@@ -124,7 +124,7 @@
 	margin-top: 1.75rem;
 	padding-left: 0.5rem;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.timeline {
 		margin-top: 1.5rem;
 	}
@@ -167,7 +167,7 @@
 .timeline__description {
 	margin-top: 0.5rem;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 576px) {
 	.timeline__description {
 		margin-top: 0.1875rem;
 	}
