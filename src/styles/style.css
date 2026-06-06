@@ -865,8 +865,8 @@ h6 {
 	--color: var(--primary-color);
 	--radius: 0.5em;
 
-	background: radial-gradient(100% 50% at right, var(--color) 98%, #0000 101%) 0 0 / 0.5lh
-			calc(100% - 2 * var(--radius)),
+	background:
+		radial-gradient(100% 50% at right, var(--color) 98%, #0000 101%) 0 0 / 0.5lh calc(100% - 2 * var(--radius)),
 		radial-gradient(100% 50% at left, #0005 98%, #0000 101%) 100% 100% / var(--radius) calc(2 * var(--radius)),
 		conic-gradient(
 				from 180deg at calc(100% - var(--radius)) calc(100% - 2 * var(--radius)),

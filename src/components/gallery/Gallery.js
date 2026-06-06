@@ -128,20 +128,21 @@ export function Gallery({ show }) {
 	return html`
 		<div class="box box-content">
 			<div class="pb-0 pb-sm-2">
-				<p>
-					Collection of my work featuring both professional and side projects built along my
-					career.
-				</p>
+				<p>Collection of my work featuring both professional and side projects built along my career.</p>
 			</div>
 
 			<div class="pb-0">
 				<div class="gallery-grid">
 					${projects.map(
 						(project) => html`
-							<figure class="gallery-grid__item" key=${project.title}>
+							<figure
+								class="gallery-grid__item"
+								key=${project.title}>
 								${project.isSide ? html`<div class="ribbon">Side</div>` : null}
 								<div class="gallery-grid__image-wrap">
-									<a href=${project.url} target="_blank">
+									<a
+										href=${project.url}
+										target="_blank">
 										<img
 											class="gallery-grid__image cover"
 											src=${project.image} />
@@ -152,7 +153,7 @@ export function Gallery({ show }) {
 									<span class="gallery-grid__category">${project.category}</span>
 								</figcaption>
 							</figure>
-						`
+						`,
 					)}
 				</div>
 			</div>

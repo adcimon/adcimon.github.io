@@ -40,8 +40,8 @@ export function Certifications() {
 						<div>
 							<ul>
 								<li>
-									Advanced course focused on multiplatform development, industry
-									standard workflows and modern rendering pipelines.
+									Advanced course focused on multiplatform development, industry standard workflows
+									and modern rendering pipelines.
 								</li>
 							</ul>
 						</div>

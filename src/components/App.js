@@ -14,7 +14,9 @@ export function App() {
 
 	return html`
 		<main>
-			<div id="banner" class="header-banner">
+			<div
+				id="banner"
+				class="header-banner">
 				<div
 					class="header-banner__image"
 					style=${{ backgroundImage: 'url(assets/images/banners/banner1.png)' }}></div>
@@ -30,9 +32,15 @@ export function App() {
 				<${Header} />
 
 				<div class="row sticky-parent">
-					${!isCVMode ? html`<${Navbar} activeTab=${nav} setActiveTab=${setNav} />` : null}
+					${!isCVMode
+						? html`<${Navbar}
+								activeTab=${nav}
+								setActiveTab=${setNav} />`
+						: null}
 
-					<div id="sections" class=${isCVMode ? 'col-12 col-md-12 col-lg-12' : 'col-12 col-md-12 col-lg-10'}>
+					<div
+						id="sections"
+						class=${isCVMode ? 'col-12 col-md-12 col-lg-12' : 'col-12 col-md-12 col-lg-10'}>
 						<${Resume} show=${nav === 0} />
 						<${Gallery} show=${nav === 1} />
 					</div>
