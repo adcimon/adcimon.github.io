@@ -5,11 +5,11 @@
 @import url(general.css);
 @import url(typography.css);
 
-@import url(../components/resume/Resume.css);
-@import url(../components/resume/Expertise.css);
-@import url(../components/resume/Timeline.css);
-@import url(../components/resume/Toolbox.css);
-@import url(../components/header/Header.css);
-@import url(../components/navbar/Navbar.css);
-@import url(../components/gallery/Gallery.css);
-@import url(../components/banner/Banner.css);
+@import url(../components/Resume/Resume.css);
+@import url(../components/Resume/Expertise.css);
+@import url(../components/Resume/Timeline.css);
+@import url(../components/Resume/Toolbox.css);
+@import url(../components/Header/Header.css);
+@import url(../components/Navbar/Navbar.css);
+@import url(../components/Gallery/Gallery.css);
+@import url(../components/Banner/Banner.css);

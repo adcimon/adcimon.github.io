@@ -1,9 +1,9 @@
-import { html } from '../html.js';
-import { Banner } from './banner/Banner.js';
-import { Header } from './header/Header.js';
-import { Navbar } from './navbar/Navbar.js';
-import { Resume } from './resume/Resume.js';
-import { Gallery } from './gallery/Gallery.js';
+import { html } from '../../html.js';
+import { Banner } from '../Banner/Banner.js';
+import { Header } from '../Header/Header.js';
+import { Navbar } from '../Navbar/Navbar.js';
+import { Resume } from '../Resume/Resume.js';
+import { Gallery } from '../Gallery/Gallery.js';
 
 export function App() {
 	const params = new URLSearchParams(window.location.search);
