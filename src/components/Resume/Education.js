@@ -59,7 +59,7 @@ export function Education() {
 				<h2 class="title title--h3">
 					<img
 						class="title-icon"
-						src="assets/images/icons/education.svg"
+						src="assets/icons/education.svg"
 						alt="" />
 					Education
 				</h2>

@@ -39,13 +39,13 @@ export function Banner() {
 			<div class="swiper-wrapper">
 				<div
 					class="swiper-slide header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner1.png)' }}></div>
+					style=${{ backgroundImage: 'url(assets/banners/banner1.png)' }}></div>
 				<div
 					class="swiper-slide header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner2.png)' }}></div>
+					style=${{ backgroundImage: 'url(assets/banners/banner2.png)' }}></div>
 				<div
 					class="swiper-slide header-banner__image"
-					style=${{ backgroundImage: 'url(assets/images/banners/banner3.png)' }}></div>
+					style=${{ backgroundImage: 'url(assets/banners/banner3.png)' }}></div>
 			</div>
 			<div class="swiper-pagination"></div>
 		</div>

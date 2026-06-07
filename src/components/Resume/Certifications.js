@@ -7,7 +7,7 @@ export function Certifications() {
 				<h2 class="title title--h3">
 					<img
 						class="title-icon"
-						src="assets/images/icons/certifications.svg"
+						src="assets/icons/certifications.svg"
 						alt="" />
 					Certifications
 				</h2>

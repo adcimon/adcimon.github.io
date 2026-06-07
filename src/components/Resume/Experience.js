@@ -268,7 +268,7 @@ export function Experience() {
 				<h2 class="title title--h3">
 					<img
 						class="title-icon"
-						src="assets/images/icons/experience.svg"
+						src="assets/icons/experience.svg"
 						alt="" />
 					Experience
 				</h2>

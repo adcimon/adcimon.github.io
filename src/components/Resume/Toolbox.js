@@ -26,7 +26,7 @@ export function Toolbox() {
 				<h2 class="title title--h3">
 					<img
 						class="title-icon"
-						src="assets/images/icons/toolbox.svg"
+						src="assets/icons/toolbox.svg"
 						alt="" />
 					Toolbox
 				</h2>

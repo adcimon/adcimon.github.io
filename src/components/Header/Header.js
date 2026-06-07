@@ -13,7 +13,7 @@ export function Header({ theme, toggleTheme }) {
 				<div class="header__photo">
 					<img
 						class="header__photo-img cover"
-						src="assets/images/photo.png" />
+						src="assets/photo.png" />
 				</div>
 				<div class="header__base-info">
 					<h4 class="title">Adrián Ciborro Montes</h4>
