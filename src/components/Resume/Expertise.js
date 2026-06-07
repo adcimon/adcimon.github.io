@@ -34,11 +34,11 @@ export function Expertise() {
 							key=${s.title}>
 							<div class="case-item">
 								<img
-									class="case-item__icon"
+									class="case-item-icon"
 									src=${s.icon} />
 								<div>
-									<h3 class="title title--h4">${s.title}</h3>
-									<p class="case-item__caption">${s.desc}</p>
+									<h3 class="title title-h4">${s.title}</h3>
+									<p class="case-item-caption">${s.desc}</p>
 								</div>
 							</div>
 						</div>

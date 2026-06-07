@@ -56,7 +56,7 @@ export function Education() {
 	return html`
 		<div class="row">
 			<div class="col-12">
-				<h2 class="title title--h3">
+				<h2 class="title title-h3">
 					<img
 						class="title-icon"
 						src="assets/icons/education.svg"
@@ -67,14 +67,14 @@ export function Education() {
 					${educationHistory.map(
 						(edu, idx) => html`
 							<article
-								class="timeline__item"
+								class="timeline-item"
 								key=${idx}>
-								<h5 class="title title--h5 timeline__title">${edu.title}</h5>
+								<h5 class="title title-h5 timeline-title">${edu.title}</h5>
 								<div>
 									<a href=${edu.institutionUrl}>${edu.institution}</a>
 								</div>
-								<div class="timeline__period">${edu.period}</div>
-								<div class="timeline__description">
+								<div class="timeline-period">${edu.period}</div>
+								<div class="timeline-description">
 									<ul>
 										${edu.bullets.map((bullet, bIdx) => html` <li key=${bIdx}>${bullet}</li> `)}
 									</ul>

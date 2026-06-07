@@ -8,7 +8,7 @@
 	}
 }
 
-.timeline__item {
+.timeline-item {
 	border-color: var(--color-border);
 	border-left-style: solid;
 	border-left-width: 1px;
@@ -16,7 +16,7 @@
 	padding-left: 1.375rem;
 	position: relative;
 }
-.timeline__item::before {
+.timeline-item::before {
 	background-color: var(--color-primary);
 	border-radius: 50%;
 	box-shadow: 0 0 0 0.1875rem rgba(13, 134, 255, 0.25);
@@ -27,26 +27,26 @@
 	top: 0;
 	width: 0.625rem;
 }
-.timeline__item:last-child {
+.timeline-item:last-child {
 	border: 0;
 }
 
-.timeline__title {
+.timeline-title {
 	margin-bottom: 0;
 	position: relative;
 	top: -0.3125rem;
 }
 
-.timeline__period {
+.timeline-period {
 	color: var(--color-text-muted);
 	font-size: 0.875rem;
 }
 
-.timeline__description {
+.timeline-description {
 	margin-top: 0.5rem;
 }
 @media only screen and (max-width: 576px) {
-	.timeline__description {
+	.timeline-description {
 		margin-top: 0.1875rem;
 	}
 }

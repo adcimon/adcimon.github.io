@@ -117,7 +117,7 @@ export function Gallery({ show }) {
 		<div>
 			<div class="box box-content">
 				<div class="pb-0 pb-sm-2">
-					<h3 class="title title--h3">Professional</h3>
+					<h3 class="title title-h3">Professional</h3>
 					<p>Professional work built along my career.</p>
 				</div>
 
@@ -126,20 +126,20 @@ export function Gallery({ show }) {
 						${professionalProjects.map(
 							(project) => html`
 								<figure
-									class="gallery-grid__item"
+									class="gallery-grid-item"
 									key=${project.title}>
-									<div class="gallery-grid__image-wrap">
+									<div class="gallery-grid-image-wrap">
 										<a
 											href=${project.url}
 											target="_blank">
 											<img
-												class="gallery-grid__image cover"
+												class="gallery-grid-image cover"
 												src=${project.image} />
 										</a>
 									</div>
-									<figcaption class="gallery-grid__caption">
-										<h4 class="title title--h6 gallery-grid__title">${project.title}</h4>
-										<span class="gallery-grid__category">${project.category}</span>
+									<figcaption class="gallery-grid-caption">
+										<h4 class="title title-h6 gallery-grid-title">${project.title}</h4>
+										<span class="gallery-grid-category">${project.category}</span>
 									</figcaption>
 								</figure>
 							`,
@@ -152,7 +152,7 @@ export function Gallery({ show }) {
 
 			<div class="box box-content">
 				<div class="pb-0 pb-sm-2">
-					<h3 class="title title--h3">Personal</h3>
+					<h3 class="title title-h3">Personal</h3>
 					<p>Personal and side projects developed to explore new technologies.</p>
 				</div>
 
@@ -161,20 +161,20 @@ export function Gallery({ show }) {
 						${personalProjects.map(
 							(project) => html`
 								<figure
-									class="gallery-grid__item"
+									class="gallery-grid-item"
 									key=${project.title}>
-									<div class="gallery-grid__image-wrap">
+									<div class="gallery-grid-image-wrap">
 										<a
 											href=${project.url}
 											target="_blank">
 											<img
-												class="gallery-grid__image cover"
+												class="gallery-grid-image cover"
 												src=${project.image} />
 										</a>
 									</div>
-									<figcaption class="gallery-grid__caption">
-										<h4 class="title title--h6 gallery-grid__title">${project.title}</h4>
-										<span class="gallery-grid__category">${project.category}</span>
+									<figcaption class="gallery-grid-caption">
+										<h4 class="title title-h6 gallery-grid-title">${project.title}</h4>
+										<span class="gallery-grid-category">${project.category}</span>
 									</figcaption>
 								</figure>
 							`,

@@ -39,7 +39,7 @@
 	}
 }
 
-.nav__item {
+.nav-item {
 	display: block;
 	height: 6.25rem;
 	margin-bottom: 1rem;
@@ -49,16 +49,16 @@
 	text-transform: uppercase;
 	width: 100%;
 }
-.nav__item:last-child {
+.nav-item:last-child {
 	margin-bottom: 0;
 }
 @media only screen and (max-width: 1200px) {
-	.nav__item {
+	.nav-item {
 		height: 5.125rem;
 	}
 }
 @media only screen and (max-width: 992px) {
-	.nav__item {
+	.nav-item {
 		flex: 1;
 		height: auto;
 		margin-bottom: 0;
@@ -68,7 +68,7 @@
 	}
 }
 
-.nav__item a {
+.nav-item a {
 	align-items: center;
 	background-color: var(--color-bg-nav-mobile);
 	border: 1px solid var(--color-border);
@@ -84,50 +84,50 @@
 	text-decoration: none;
 	transition: all var(--transition-smooth);
 }
-.nav__item a > * {
+.nav-item a > * {
 	min-width: 0;
 }
-.nav__item a:hover {
+.nav-item a:hover {
 	border-color: var(--color-border-hover);
 	color: var(--color-primary);
 	transform: translateY(-2px);
 }
 @media only screen and (max-width: 1200px) {
-	.nav__item a {
+	.nav-item a {
 		border-radius: 1rem;
 		font-size: 0.75rem;
 	}
 }
 @media only screen and (max-width: 992px) {
-	.nav__item a {
+	.nav-item a {
 		background-color: transparent;
 		border: 0;
 	}
-	.nav__item a:hover {
+	.nav-item a:hover {
 		transform: none;
 	}
 }
 
-.nav__item a.active {
+.nav-item a.active {
 	background-color: var(--color-primary);
 	border-color: var(--color-primary);
 	box-shadow: 0 0 12px rgba(13, 134, 255, 0.3);
 	color: var(--color-text-primary);
 }
-.nav__item a.active:hover {
+.nav-item a.active:hover {
 	color: var(--color-text-primary);
 }
 @media only screen and (max-width: 992px) {
-	.nav__item a.active {
+	.nav-item a.active {
 		background-color: transparent;
 		border-color: transparent;
 		box-shadow: none;
 		color: var(--color-primary);
 	}
-	.nav__item a.active:hover {
+	.nav-item a.active:hover {
 		color: var(--color-primary);
 	}
-	.nav__item a.active::before {
+	.nav-item a.active::before {
 		background-color: var(--color-primary);
 		bottom: -0.25rem;
 		content: '';
@@ -138,20 +138,20 @@
 	}
 }
 
-.nav__item [class^='icon-'] {
+.nav-item [class^='icon-'] {
 	display: block;
 	font-size: 2.25rem;
 	margin-bottom: 0.5rem;
 	margin-top: 0.25rem;
 }
 @media only screen and (max-width: 1200px) {
-	.nav__item [class^='icon-'] {
+	.nav-item [class^='icon-'] {
 		font-size: 1.75rem;
 		margin-bottom: 0.25rem;
 	}
 }
 @media only screen and (max-width: 992px) {
-	.nav__item [class^='icon-'] {
+	.nav-item [class^='icon-'] {
 		font-size: 1.25rem;
 		margin-bottom: 0.125rem;
 		margin-top: 0.25rem;

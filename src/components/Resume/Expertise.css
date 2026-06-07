@@ -39,31 +39,31 @@
 	}
 }
 
-.case-item__icon {
+.case-item-icon {
 	height: 2.5rem;
 	margin-bottom: 1rem;
 	transition: transform var(--transition-smooth);
 	width: 2.5rem;
 }
-.case-item:hover .case-item__icon {
+.case-item:hover .case-item-icon {
 	transform: scale(1.1);
 }
 @media only screen and (max-width: 576px) {
-	.case-item__icon {
+	.case-item-icon {
 		margin-bottom: 0.8125rem;
 	}
 }
 
-.case-item__caption {
+.case-item-caption {
 	color: var(--color-text-secondary);
 	line-height: 1.5;
 }
 @media only screen and (max-width: 576px) {
-	.case-item__caption {
+	.case-item-caption {
 		font-size: 0.8125rem;
 		line-height: 1.4;
 	}
 }
-.case-item__caption:last-child {
+.case-item-caption:last-child {
 	margin-bottom: 0;
 }

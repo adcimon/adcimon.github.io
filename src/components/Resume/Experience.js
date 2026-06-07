@@ -265,7 +265,7 @@ export function Experience() {
 	return html`
 		<div class="row">
 			<div class="col-12">
-				<h2 class="title title--h3">
+				<h2 class="title title-h3">
 					<img
 						class="title-icon"
 						src="assets/icons/experience.svg"
@@ -276,17 +276,17 @@ export function Experience() {
 					${workHistory.map(
 						(work, idx) => html`
 							<article
-								class="timeline__item"
+								class="timeline-item"
 								key=${idx}>
-								<h5 class="title title--h5 timeline__title">
+								<h5 class="title title-h5 timeline-title">
 									${work.company}${' '}
 									<a href=${work.companyUrl}>
 										<i class="font-icon icon-link"></i>
 									</a>
 								</h5>
-								<div class="timeline__period">${work.period}</div>
-								<div class="timeline__period">${work.title}</div>
-								<div class="timeline__description">
+								<div class="timeline-period">${work.period}</div>
+								<div class="timeline-period">${work.title}</div>
+								<div class="timeline-description">
 									<ul>
 										${work.bullets.map((bullet, bIdx) => html` <li key=${bIdx}>${bullet}</li> `)}
 									</ul>

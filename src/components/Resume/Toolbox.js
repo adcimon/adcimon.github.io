@@ -23,7 +23,7 @@ export function Toolbox() {
 	return html`
 		<div class="row">
 			<div class="col-12">
-				<h2 class="title title--h3">
+				<h2 class="title title-h3">
 					<img
 						class="title-icon"
 						src="assets/icons/toolbox.svg"
@@ -31,11 +31,11 @@ export function Toolbox() {
 					Toolbox
 				</h2>
 				<p>Core technology stack and familiar tools.</p>
-				<div class="box box__border">
+				<div class="box box-border">
 					${Object.entries(toolboxBadges).map(
 						([category, badges], idx) => html`
 							<div key=${category}>
-								<h4 class="title title--h4">${category}</h4>
+								<h4 class="title title-h4">${category}</h4>
 								<div>
 									${badges.map(
 										(badge) => html`

@@ -12,7 +12,7 @@ export function Navbar({ activeTab, setActiveTab }) {
 			class="col-12 col-md-12 col-lg-2">
 			<div class="sidebar box sticky-column">
 				<ul class="nav">
-					<li class="nav__item">
+					<li class="nav-item">
 						<a
 							class=${activeTab === 0 ? 'active' : ''}
 							href="#"
@@ -21,7 +21,7 @@ export function Navbar({ activeTab, setActiveTab }) {
 							<i class="icon-file"></i>Resume
 						</a>
 					</li>
-					<li class="nav__item">
+					<li class="nav-item">
 						<a
 							class=${activeTab === 1 ? 'active' : ''}
 							href="#"

@@ -15,13 +15,13 @@
 	}
 }
 
-.box__border {
+.box-border {
 	background-color: var(--color-bg-border-box);
 	border: 2px solid var(--color-border);
 	border-radius: var(--radius-card);
 }
 @media only screen and (max-width: 576px) {
-	.box__border {
+	.box-border {
 		border-radius: var(--radius-card-sm);
 		padding: 1rem;
 	}

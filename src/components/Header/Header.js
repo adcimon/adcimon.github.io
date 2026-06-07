@@ -9,16 +9,16 @@ export function Header({ theme, toggleTheme }) {
 				aria-label="Toggle theme">
 				<i class=${theme === 'light' ? 'icon-moon' : 'icon-sun'}></i>
 			</button>
-			<div class="header__left">
-				<div class="header__photo">
+			<div class="header-left">
+				<div class="header-photo">
 					<img
-						class="header__photo-img cover"
+						class="header-photo-img cover"
 						src="assets/photo.png" />
 				</div>
-				<div class="header__base-info">
+				<div class="header-base-info">
 					<h4 class="title">Adrián Ciborro Montes</h4>
 					<div class="status">Software Engineer</div>
-					<ul class="header__social">
+					<ul class="header-social">
 						<li>
 							<a href="https://www.linkedin.com/in/adcimon/">
 								<i class="font-icon icon-linkedin"></i>
@@ -42,12 +42,12 @@ export function Header({ theme, toggleTheme }) {
 					</ul>
 				</div>
 			</div>
-			<div class="header__right">
-				<ul class="header__contact">
+			<div class="header-right">
+				<ul class="header-contact">
 					<li><span class="overhead">Birthday</span>26 March, 1990</li>
 					<li><span class="overhead">Location</span>Valencia, Spain</li>
 				</ul>
-				<ul class="header__contact">
+				<ul class="header-contact">
 					<li><span class="overhead">Contact</span>contact.adcimon@gmail.com</li>
 				</ul>
 			</div>
