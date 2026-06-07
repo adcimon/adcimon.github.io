@@ -1,9 +1,9 @@
 import { html } from '../html.js';
+import { Banner } from './banner/Banner.js';
 import { Header } from './header/Header.js';
 import { Navbar } from './navbar/Navbar.js';
 import { Resume } from './resume/Resume.js';
 import { Gallery } from './gallery/Gallery.js';
-import { Banner } from './banner/Banner.js';
 
 export function App() {
 	const params = new URLSearchParams(window.location.search);
@@ -14,9 +14,9 @@ export function App() {
 
 	React.useEffect(() => {
 		if (theme === 'light') {
-			document.body.className = 'light-theme';
+			document.body.className = 'theme-light';
 		} else {
-			document.body.className = 'dark-theme';
+			document.body.className = 'theme-dark';
 		}
 		localStorage.setItem('theme', theme);
 	}, [theme]);

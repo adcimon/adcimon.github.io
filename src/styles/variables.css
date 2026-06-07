@@ -12,7 +12,7 @@
 }
 
 body,
-body.dark-theme {
+body.theme-dark {
 	--color-bg-body: #1d1e24;
 	--color-bg-border-box: rgba(30, 31, 38, 0.4);
 	--color-bg-card: rgba(35, 38, 43, 0.85);
@@ -32,7 +32,7 @@ body.dark-theme {
 	--shadow-card-hover: -6px 12px 32px rgba(0, 0, 0, 0.25);
 }
 
-body.light-theme {
+body.theme-light {
 	--color-bg-body: #e4e8f0;
 	--color-bg-border-box: rgba(240, 242, 245, 0.4);
 	--color-bg-card: rgba(250, 251, 253, 0.75);
