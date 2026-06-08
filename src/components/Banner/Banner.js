@@ -2,7 +2,16 @@ import { html } from '../../html.js';
 
 export function Banner() {
 	React.useEffect(() => {
-		const shouldLoop = window.innerWidth < 1200;
+		const breakpointMd =
+			parseInt(getComputedStyle(document.documentElement).getPropertyValue('--bs-breakpoint-md').trim(), 10) ||
+			768;
+
+		const breakpointXl =
+			parseInt(getComputedStyle(document.documentElement).getPropertyValue('--bs-breakpoint-xl').trim(), 10) ||
+			1200;
+
+		const shouldLoop = window.innerWidth < breakpointXl;
+
 		const swiper = new Swiper('#banner-swiper', {
 			slidesPerView: 1,
 			spaceBetween: 0,
@@ -18,11 +27,11 @@ export function Banner() {
 				clickable: true,
 			},
 			breakpoints: {
-				768: {
+				[breakpointMd]: {
 					slidesPerView: 2,
 					spaceBetween: 0,
 				},
-				1200: {
+				[breakpointXl]: {
 					slidesPerView: 3,
 					spaceBetween: 0,
 				},
