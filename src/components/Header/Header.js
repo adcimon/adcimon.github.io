@@ -4,7 +4,7 @@ export function Header({ theme, toggleTheme }) {
 	return html`
 		<header class="header box">
 			<button
-				class="theme-toggle-btn"
+				class="theme-toggle"
 				onClick=${toggleTheme}
 				aria-label="Toggle theme">
 				<i class=${theme === 'light' ? 'icon-moon' : 'icon-sun'}></i>

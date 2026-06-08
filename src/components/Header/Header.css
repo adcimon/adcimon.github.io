@@ -207,7 +207,7 @@
 	min-width: 0;
 }
 
-.theme-toggle-btn {
+.theme-toggle {
 	align-items: center;
 	backdrop-filter: blur(12px);
 	background: var(--color-bg-card-hover);
@@ -229,11 +229,11 @@
 	z-index: 10;
 	-webkit-backdrop-filter: blur(12px);
 }
-.theme-toggle-btn:hover {
+.theme-toggle:hover {
 	border-color: var(--color-border-hover);
 	box-shadow: var(--shadow-button-hover);
 	transform: scale(1.1);
 }
-.theme-toggle-btn i {
+.theme-toggle i {
 	font-size: 1.1rem;
 }
