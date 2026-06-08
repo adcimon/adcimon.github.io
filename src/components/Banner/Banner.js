@@ -2,11 +2,13 @@ import { html } from '../../html.js';
 
 export function Banner() {
 	React.useEffect(() => {
+		const shouldLoop = window.innerWidth < 1200;
 		const swiper = new Swiper('#banner-swiper', {
 			slidesPerView: 1,
 			spaceBetween: 0,
 			speed: 1500,
-			loop: true,
+			loop: shouldLoop,
+			rewind: !shouldLoop,
 			autoplay: {
 				delay: 6000,
 				disableOnInteraction: false,
