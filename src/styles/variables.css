@@ -28,8 +28,10 @@ body.theme-dark {
 	--color-text-muted: rgba(174, 176, 184, 0.7);
 	--color-text-primary: #fcfcfc;
 	--color-text-secondary: #aeb0b8;
-	--shadow-card: -4px 8px 24px rgba(0, 0, 0, 0.15);
-	--shadow-card-hover: -6px 12px 32px rgba(0, 0, 0, 0.25);
+	--shadow-card: 0 2px 12px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.08);
+	--shadow-card-hover: 0 6px 20px rgba(0, 0, 0, 0.18), 0 2px 8px rgba(0, 0, 0, 0.12);
+	--shadow-button: 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.12);
+	--shadow-button-hover: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 body.theme-light {
@@ -48,6 +50,8 @@ body.theme-light {
 	--color-text-muted: rgba(90, 93, 106, 0.7);
 	--color-text-primary: #1d1e24;
 	--color-text-secondary: #5a5d6a;
-	--shadow-card: 0 8px 24px rgba(0, 0, 0, 0.05);
-	--shadow-card-hover: 0 12px 32px rgba(0, 0, 0, 0.1);
+	--shadow-card: 0 2px 12px rgba(0, 0, 0, 0.03), 0 1px 4px rgba(0, 0, 0, 0.01);
+	--shadow-card-hover: 0 6px 20px rgba(0, 0, 0, 0.05), 0 2px 8px rgba(0, 0, 0, 0.02);
+	--shadow-button: 0 1px 3px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.04);
+	--shadow-button-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
