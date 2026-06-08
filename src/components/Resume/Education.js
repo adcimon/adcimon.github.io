@@ -17,8 +17,7 @@ const educationHistory = [
 			html`<strong>Final project:</strong>${' '}<a
 					href="https://riunet.upv.es/entities/publication/07441873-f96d-4b3f-af05-326111983bb8"
 					>Rendering of distance functions using raymarching in Unity</a
-				>${' '}(<a href="https://github.com/adcimon/com.adcimon.raymarching"
-					><i class="font-icon icon-github1"></i></a
+				>${' '}(<a href="https://github.com/adcimon/com.adcimon.raymarching"><i class="bi bi-github"></i></a
 				>).`,
 			html`Artificial intelligence, machine learning and deep learning.`,
 			html`Computer graphics, game engines and mixed reality.`,

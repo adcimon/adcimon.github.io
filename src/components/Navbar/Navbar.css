@@ -138,20 +138,20 @@
 	}
 }
 
-.nav-item [class^='icon-'] {
+.nav-item .bi {
 	display: block;
 	font-size: 2.25rem;
 	margin-bottom: 0.5rem;
 	margin-top: 0.25rem;
 }
 @media only screen and (max-width: 1200px) {
-	.nav-item [class^='icon-'] {
+	.nav-item .bi {
 		font-size: 1.75rem;
 		margin-bottom: 0.25rem;
 	}
 }
 @media only screen and (max-width: 992px) {
-	.nav-item [class^='icon-'] {
+	.nav-item .bi {
 		font-size: 1.25rem;
 		margin-bottom: 0.125rem;
 		margin-top: 0.25rem;

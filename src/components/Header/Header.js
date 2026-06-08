@@ -7,7 +7,7 @@ export function Header({ theme, toggleTheme }) {
 				class="theme-toggle"
 				onClick=${toggleTheme}
 				aria-label="Toggle theme">
-				<i class=${theme === 'light' ? 'icon-moon' : 'icon-sun'}></i>
+				<i class=${theme === 'light' ? 'bi bi-moon-fill' : 'bi bi-sun-fill'}></i>
 			</button>
 			<div class="header-left">
 				<div class="header-photo">
@@ -21,22 +21,22 @@ export function Header({ theme, toggleTheme }) {
 					<ul class="header-social">
 						<li>
 							<a href="https://www.linkedin.com/in/adcimon/">
-								<i class="font-icon icon-linkedin"></i>
+								<i class="bi bi-linkedin"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://github.com/adcimon">
-								<i class="font-icon icon-github1"></i>
+								<i class="bi bi-github"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://youtube.com/@adcimon">
-								<i class="font-icon icon-youtube1"></i>
+								<i class="bi bi-youtube"></i>
 							</a>
 						</li>
 						<li>
 							<a href="mailto: contact.adcimon@gmail.com">
-								<i class="font-icon icon-mail"></i>
+								<i class="bi bi-envelope-fill"></i>
 							</a>
 						</li>
 					</ul>

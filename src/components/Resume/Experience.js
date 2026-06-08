@@ -164,14 +164,13 @@ const workHistory = [
 				Leading role in${' '}
 				<a href="http://www.admire3d.eu/">Advanced Mixed Realities</a>${' '} (<a
 					href="https://www.youtube.com/watch?v=44Ka9zlbpT8"
-					><i class="font-icon icon-youtube1"></i></a
+					><i class="bi bi-youtube"></i></a
 				>) and${' '}
 				<a href="https://newsinitiative.withgoogle.com/dnifund/dni-projects/TelePorter/"
 					>Google Digital News Initiative Teleporter</a
-				>${' '} (<a href="https://www.youtube.com/watch?v=ZX5zu1fVduo"
-					><i class="font-icon icon-youtube1"></i></a
-				>) projects that explored the use of XR and real-time video in live TV productions with AI-based
-				background extraction and super resolution.
+				>${' '} (<a href="https://www.youtube.com/watch?v=ZX5zu1fVduo"><i class="bi bi-youtube"></i></a>)
+				projects that explored the use of XR and real-time video in live TV productions with AI-based background
+				extraction and super resolution.
 			`,
 		],
 	},
@@ -281,7 +280,7 @@ export function Experience() {
 								<h5 class="title title-h5 timeline-title">
 									${work.company}${' '}
 									<a href=${work.companyUrl}>
-										<i class="font-icon icon-link"></i>
+										<i class="bi bi-link-45deg"></i>
 									</a>
 								</h5>
 								<div class="timeline-period">${work.period}</div>

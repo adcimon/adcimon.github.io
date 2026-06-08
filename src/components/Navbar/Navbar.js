@@ -18,7 +18,7 @@ export function Navbar({ activeTab, setActiveTab }) {
 							href="#"
 							role="button"
 							onClick=${(e) => handleTabClick(e, 0)}>
-							<i class="icon-file"></i>Resume
+							<i class="bi bi-file-earmark-person-fill"></i>Resume
 						</a>
 					</li>
 					<li class="nav-item">
@@ -27,7 +27,7 @@ export function Navbar({ activeTab, setActiveTab }) {
 							href="#"
 							role="button"
 							onClick=${(e) => handleTabClick(e, 1)}>
-							<i class="icon-image"></i>Gallery
+							<i class="bi bi-images"></i>Gallery
 						</a>
 					</li>
 				</ul>
